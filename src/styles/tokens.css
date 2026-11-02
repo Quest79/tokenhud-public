@@ -1,0 +1,43 @@
+/* Design tokens. */
+:root {
+  --bg-page: #01121c;
+  --bg-header: #03111c;
+  --bg-card-1: #071727;
+  --bg-card-2: #051522;
+  --bg-card-3: #041420;
+  --bg-raised-1: #0a1a2e;
+  --bg-raised-2: #071427;
+  --bg-row-alt: #020e1a;
+  --border: #16273a;
+  --border-hi: rgba(0, 208, 248, 0.38);
+  --track: #1a2a44;
+
+  --cyan: #00d0f8;
+  --cyan-bright: #26edf3;
+  --blue: #0098e0;
+  --blue-2: #3080f8;
+  --blue-3: #28c0f8;
+  --purple: #9058f8;
+  --pink: #d850a8;
+  --green: #00d890;
+  --green-bright: #00f098;
+  --amber: #f0a038;
+  --red: #e84068;
+
+  --text: #f9ffff;
+  --text-2: #d1e7ff;
+  --text-muted: #b0c4e0;
+  --text-axis: #8fa6c0;
+
+  --toggle-on: #005f95;
+  --toggle-off: #000226;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --fs: 1;
+  --gap: 12px;
+  --pad: 18px;
+
+  --font: 'Inter Variable', 'Inter', system-ui, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, Consolas, monospace;
+}

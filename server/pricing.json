@@ -1,0 +1,18 @@
+{
+  "_note": "ESTIMATES in USD per million tokens, matched by model family (substring of the model id). Edit freely; the dashboard labels all costs as estimates. cw5m/cw1h = cache write with 5-minute / 1-hour lifetime. GPT rows are OpenAI API list prices (standard tier, developers.openai.com/api/docs/pricing, Oct 2026), shown as the API-equivalent cost since Codex on a plan is not billed per token; codex-auto-review has no list price and is assumed to bill like gpt-5.6-terra.",
+  "opus-5-5": { "in": 4, "out": 20, "cw5m": 5, "cw1h": 8, "cr": 0.2 },
+  "opus":   { "in": 5, "out": 25, "cw5m": 6.25, "cw1h": 10, "cr": 0.5 },
+  "sonnet-5": { "in": 2, "out": 10, "cw5m": 2.5, "cw1h": 4, "cr": 0.2 },
+  "sonnet": { "in": 3, "out": 15, "cw5m": 3.75, "cw1h": 6,  "cr": 0.3 },
+  "haiku-5-5": { "in": 0.1, "out": 0.5, "cw5m": 0.125, "cw1h": 0.2, "cr": 0.01, "tierAbove": 100000, "tier": { "in": 0.5, "out": 2.5, "cw5m": 0.625, "cw1h": 1, "cr": 0.05 } },
+  "haiku":  { "in": 1, "out": 5,  "cw5m": 1.25, "cw1h": 2,  "cr": 0.1 },
+  "gpt-6-astra":  { "in": 10,   "out": 50, "cw5m": 12.5,  "cw1h": 12.5,  "cr": 1 },
+  "gpt-6.1-sol":  { "in": 2,    "out": 10, "cw5m": 2.5,   "cw1h": 2.5,   "cr": 0.1 },
+  "gpt-6-sol":    { "in": 2,    "out": 10, "cw5m": 2.5,   "cw1h": 2.5,   "cr": 0.2 },
+  "gpt-6-luna":   { "in": 0.1,  "out": 0.5, "cw5m": 0.125, "cw1h": 0.125, "cr": 0.01 },
+  "gpt-5.6-sol":  { "in": 4,    "out": 20, "cw5m": 5,     "cw1h": 5,     "cr": 0.4 },
+  "gpt-5.6-terra":{ "in": 2,    "out": 12, "cw5m": 2.5,   "cw1h": 2.5,   "cr": 0.2 },
+  "gpt-5.6-luna": { "in": 0.2,  "out": 1.2, "cw5m": 0.25,  "cw1h": 0.25,  "cr": 0.02 },
+  "gpt-5.5":      { "in": 5,    "out": 30, "cw5m": 5,     "cw1h": 5,     "cr": 0.5 },
+  "codex-auto-review": { "in": 2, "out": 12, "cw5m": 2.5, "cw1h": 2.5, "cr": 0.2 }
+}

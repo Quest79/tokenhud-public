@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.vite/
+tray/target/
+tray/gen/
+tray/target/
+tray/gen/
+runtime/
+
+
