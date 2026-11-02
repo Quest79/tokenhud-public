@@ -4,6 +4,10 @@ A local dashboard for your Claude Code and Codex usage: live requests, output sp
 
 It runs entirely on your own computer. It reads the logs Claude Code and Codex already write and shows them in a window.
 
+![TokenHUD dashboard (sample data)](docs/screenshot.png)
+
+<sub>Screenshot uses the built-in sample data, not real usage.</sub>
+
 ## Requirements
 
 - Windows 10 or 11
