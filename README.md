@@ -8,6 +8,20 @@ It runs entirely on your own computer. It reads the logs Claude Code and Codex a
 
 <sub>Screenshot uses the built-in sample data, not real usage.</sub>
 
+## Features
+
+- **Live overview:** requests, output speed (tok/s), tokens and cost as you work
+- **Claude Code and Codex:** both together, or filter to one
+- **Sessions and traces:** every session, with a timeline of each model and tool call
+- **Cost & Usage:** API-equivalent cost, total tokens and token mix over time
+- **Plan value:** your 5-hour and weekly plan meters in API dollars, per model and effort
+- **Model cards and comparison:** speed, first-token time and cost per request, side by side
+- **Context:** context size, cache hit rate and expiry, and whether to compact or start fresh
+- **Tools:** calls, failures, durations and share of cost
+- **Alerts:** slow requests, failed tools, spend spikes, oversized context
+- **Weekly summary:** this week against last week
+- **Extras:** tray app, pace indicator, starred pages, classic or minimal look
+
 ## Requirements
 
 - Windows 10 or 11
